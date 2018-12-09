@@ -25,7 +25,7 @@ const state = {
   thirdPartySite: [  // 配置你想在左上角展示的第三方站点信息
     {
       img: 'static/img/github.png',  // 第三方站点图标，存放在「BGAIssueBlog-Web/static/img」目录中
-      url: 'https://github.com/bingoogolapple'  // 第三方站点的 url
+      url: 'https://github.com/fydy'  // 第三方站点的 url
     },
     {
       img: 'static/img/weibo.png',
