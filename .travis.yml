@@ -4,9 +4,11 @@ node_js:
   - stable
 
 before_script:
-  - npm install
+  - mkdir blog && cd blog && git clone -b vue https://github.com/fydy/bga_issue.git ./ && rm -rf .git
+
 
 script:
+  - npm install
   - npm run build
   
 after_script:
